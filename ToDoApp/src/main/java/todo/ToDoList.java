@@ -58,6 +58,11 @@ public class ToDoList {
         currentPanel = homePanel;
 
 //        homePanel.add(menuBar,BorderLayout.NORTH);
+        private void handleMergeConflict() {
+            JOptionPane.showMessageDialog(frame, "Merge Conflict Detected!\n" +
+                            "You need to manually resolve conflicting task changes.",
+                    "Merge Conflict", JOptionPane.WARNING_MESSAGE);
+        }
 
 
 
