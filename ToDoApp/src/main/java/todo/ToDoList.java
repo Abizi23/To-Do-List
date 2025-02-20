@@ -73,7 +73,7 @@ public class ToDoList {
             @Override
             public void actionPerformed(ActionEvent e) {
                 addTodos();
-                switchPanel(addTaskPanel);
+                switchPanel(addTaskPanel);// method to add tasks
             }
         });
 
@@ -93,7 +93,7 @@ public class ToDoList {
 
     }
 
-    private void handleExit() {
+    private void handleExit() {// method to handle exit
         int response = JOptionPane.showConfirmDialog(null,"Are you sure you want to exit?","Exit Confirmation",
                 JOptionPane.OK_CANCEL_OPTION);
 
